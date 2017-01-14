@@ -1,10 +1,11 @@
-#to install software, need to get chrome 
+#Installs dropbox, vim, atom, and python3 stuff
+#need to get chrome on here
 
 apt-get install dropbox vim atom python3 python3-pip idle3
 
 #command to add chrome and atom to the panel
 
-#install old backgrounds
+#install old backgrounds 
 sudo apt-get install mint-backgrounds-*
 
 #removing all third party apps bs
