@@ -13,7 +13,7 @@ apt-get install dropbox vim atom python3 python3-pip idle3
 sudo apt-get install mint-backgrounds-*
 
 #removing all third party apps bs
-sudo apt-get --purge autoremove xpad* gimp* pix* simple-scan* thunderbird* transmission-gtk* brasero* xplayer* rhythmbox* firefox*
+sudo apt-get --purge autoremove xpad* gimp* pix* simple-scan* thunderbird* transmission-gtk* brasero* xplayer* rhythmbox* firefox* hexchat* pidgin* 
 
 sudo apt-get --purge autoremove icedtea*
 sudo apt-get --purge autoremove libreoffice*
