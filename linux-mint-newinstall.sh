@@ -1,5 +1,10 @@
-#to install software, need to get chrome 
+#atom repo
+sudo add-apt-repository ppa:webupd8team/atom
 
+#update repo
+sudo apt-get update
+
+#to install software, need to get chrome 
 apt-get install dropbox vim atom python3 python3-pip idle3
 
 #command to add chrome and atom to the panel
@@ -8,7 +13,7 @@ apt-get install dropbox vim atom python3 python3-pip idle3
 sudo apt-get install mint-backgrounds-*
 
 #removing all third party apps bs
-sudo apt-get --purge autoremove xpad gimp pix simple-scan thunderbird transmission-gtk brasero xplayer rhythmbox firefox
+sudo apt-get --purge autoremove xpad* gimp* pix* simple-scan* thunderbird* transmission-gtk* brasero* xplayer* rhythmbox* firefox*
 
 sudo apt-get --purge autoremove icedtea*
 sudo apt-get --purge autoremove libreoffice*
