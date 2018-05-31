@@ -17,7 +17,7 @@ sudo dpkg -i google-chrome*.deb
 wget https://go.microsoft.com/fwlink/?LinkID=760868
 
 #removing all third party apps bs
-sudo apt-get -y --purge autoremove xpad* gimp* pix* simple-scan* thunderbird* transmission-gtk* brasero* xplayer* rhythmbox* firefox* hexchat* pidgin*
+sudo apt-get -y --purge autoremove xpad* gimp* pix* simple-scan* thunderbird* transmission-gtk* vino* brasero* xplayer* rhythmbox* firefox* hexchat* pidgin*
 
 sudo apt-get -y --purge autoremove icedtea*
 sudo apt-get -y --purge autoremove libreoffice*
