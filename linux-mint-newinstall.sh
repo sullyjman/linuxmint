@@ -1,8 +1,8 @@
 #update repo
 sudo apt-get update
 
-#to install software
-apt-get -y install dropbox vim atom python3 python3-pip idle3 numlockx mint-backgrounds-*
+#Software I want installed
+sudo apt-get -y install dropbox vim python3 python3-pip idle3 mint-backgrounds-*
 
 #Chrome download
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -12,9 +12,6 @@ sudo dpkg -i google-chrome*.deb
 
 #command to add chrome and atom to the panel
 
-#download MS Visual Studio Code
-
-wget https://go.microsoft.com/fwlink/?LinkID=760868
 
 #removing all third party apps bs
 sudo apt-get -y --purge autoremove xpad* gimp* pix* simple-scan* thunderbird* transmission-gtk* vino* brasero* xplayer* rhythmbox* firefox* hexchat* pidgin*
